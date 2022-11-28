@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    gap: 45px;
+    margin: 20px;
+}
+
+.navbar-link {
+    padding: 5px 0;
+    cursor: pointer;
+}
+.navbar-link:hover {
+    border-bottom: 4px double var(--palette-color-5);
+}

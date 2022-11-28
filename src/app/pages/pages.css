@@ -1,0 +1,11 @@
+.page header {
+    font-family: 'Rubik Glitch', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.page .container {
+    display: flex;
+    justify-content: center;
+}
