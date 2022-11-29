@@ -4,10 +4,10 @@ export default function Navbar() {
     return (
         <ul className="navbar">
             <li className="navbar-link navbar-link-currency">
-                <NavLink to='/currency'>CURRENCY</NavLink>
+                <NavLink to='/currency'>КОНВЕРТЕР ВАЛЮТ</NavLink>
             </li>
             <li className="navbar-link navbar-link-quiz">
-                <NavLink to='/quiz'>QUIZ</NavLink>
+                <NavLink to='/quiz'>КВІЗ</NavLink>
 
             </li>
             <li className="navbar-link navbar-link-photogramm">

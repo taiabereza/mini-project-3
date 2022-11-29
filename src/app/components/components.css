@@ -1,3 +1,25 @@
+/* STYLING BUTTONS */
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .15rem;
+    text-align: center;
+}
+
+.btn-submit {
+    background-color: var(--palette-color-5);
+    color: var(--palette-color-2);
+}
+
+.btn-submit:hover {
+    box-shadow: 0 0 12px var(--palette-color-5);
+}
+
+/* STYLING NAVBAR */
+
 .navbar {
     display: flex;
     gap: 45px;
@@ -8,6 +30,72 @@
     padding: 5px 0;
     cursor: pointer;
 }
+
 .navbar-link:hover {
     border-bottom: 4px double var(--palette-color-5);
+}
+
+/* STYLING CONVERTER & VALUES */
+.converter {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (min-width: 1200px) {
+    .converter {
+        width: 50%;
+    }
+}
+
+.converter-message {
+    width: 90%;
+    font-size: .8rem;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.values-wrapper button {
+    width: 100%;
+}
+
+.values-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.values-input {
+    width: 60%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 100%;
+    padding: 8px 12px;
+    background: var(--palette-color-2);
+    color: var(--palette-color-4);
+}
+
+.values-input::placeholder {
+    color: var(--palette-color-3);
+}
+
+.values-input::-webkit-outer-spin-button,
+.values-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.values-currency-select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: var(--palette-color-2);
+    color: var(--palette-color-4);
+    cursor: pointer;
 }
