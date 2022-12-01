@@ -39,7 +39,7 @@ body {
   background-color: var(--palette-color-1);
   color: var(--palette-color-5);
   line-height: 1;
-  font-family: "Exo 2", sans-serif;
+  font-family: 'Cuprum', sans-serif;
   font-size: 1.125rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;

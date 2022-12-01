@@ -99,7 +99,7 @@ export default function Converter() {
                 </select>
             </div>
 
-            <button className="btn btn-submit"
+            <button className="button button-submit"
                 onClick={(e) => handleSwap(e)}>
                 {faArrowsElem}
             </button>

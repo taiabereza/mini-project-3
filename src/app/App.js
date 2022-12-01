@@ -1,7 +1,9 @@
 import React from 'react';
+
 import './App.css';
 import './components/components.css';
 import './pages/pages.css';
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
