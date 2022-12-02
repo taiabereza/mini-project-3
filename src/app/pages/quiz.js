@@ -1,6 +1,21 @@
+import { useState } from "react";
+import QuizEnd from "../components/QuizEnd";
+
 import QuizForm from "../components/QuizForm";
+import QuizStart from "../components/QuizStart";
 
 export default function Quiz() {
+
+	const [gameState, setGameState] = useState({
+		isStartingScreen: true,
+		isGameOn: false,
+		isGameOver: false
+	});
+
+	const [points, setPoints] = useState(0);
+
+	const { isStartingScreen, isGameOn, isGameOver } = gameState;
+
 	return (
 		<div className="page page-quiz">
 			<header>
@@ -9,7 +24,29 @@ export default function Quiz() {
 
 			<main>
 				<div className="container">
-					<QuizForm />
+
+					{(isStartingScreen)
+						? <QuizStart gameState={gameState}
+							setGameState={setGameState}
+						/>
+						: null}
+
+					{(isGameOn)
+						? <QuizForm gameState={gameState}
+							setGameState={setGameState}
+							points={points}
+							setPoints={setPoints}
+						/>
+						: null}
+
+					{(isGameOver)
+						? <QuizEnd gameState={gameState}
+							setGameState={setGameState}
+							points={points}
+							setPoints={setPoints}
+						/>
+						: null}
+
 				</div>
 			</main>
 		</div>
