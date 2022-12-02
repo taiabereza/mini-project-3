@@ -1,116 +1,235 @@
 {
-    "0": {
-        "question": "Яке значення має слово «дзендзина»? Варіянт використання: «Поїду до рідної дзедзини, відпочину душею».",
-        "answers": {
-            "0": {
-                "index": "A",
-                "answer": "Село"
+    "lemky": {
+        "0": {
+            "question": "Яке значення має слово «дзендзина»? Варіянт використання: «Поїду до рідної дзедзини, відпочину душею».",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Село"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Кузина"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Батьківщина"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "Річка"
+                }
             },
-            "1": {
-                "index": "B",
-                "answer": "Кузина"
-            },
-            "2": {
-                "index": "C",
-                "answer": "Батьківщина"
-            },
-            "3": {
-                "index": "D",
-                "answer": "Річка"
-            }
+            "rightAnswer": "A"
         },
-        "rightAnswer": "A"
+    
+        "1": {
+            "question": "Яке значення має слово «гудаки»? Варіянт використання: «На весіллі всі аплодували гудакам».",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Родичі дружини"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Родичі чоловіка"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Музиканти"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "Молодята"
+                }
+            },
+            "rightAnswer": "C"
+        },
+        
+        "2": {
+            "question": "Яке значення має слово «выґмерати»? Варіянт використання: «Тобі аби щось выґмерати, як тільки щось - і ти вже тут!».",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Виграти"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Винишпорити"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Дістати"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "Викрасти"
+                }
+            },
+            "rightAnswer": "B"
+        },
+        
+        "3": {
+            "question": "Яке значення має слово «планета»? Варіянт використання: «Планета там останнім часом зовсім холодна».",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Кімната"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Море"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Ліжко"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "Погода"
+                }
+            },
+            "rightAnswer": "D"
+        },
+    
+        "4": {
+            "question": "Яке значення має слово «бреск»? Варіянт використання: «І видно бреск над таємничим морем».",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Ключ птахів"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Світанок"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Бризки"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "Повний місяць"
+                }
+            },
+            "rightAnswer": "B"
+        }
     },
 
-    "1": {
-        "question": "Яке значення має слово «гудаки»? Варіянт використання: «На весіллі всі аплодували гудакам».",
-        "answers": {
-            "0": {
-                "index": "A",
-                "answer": "Родичі дружини"
+    "movies": {
+        "0": {
+            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-1.jpg",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Pretty In Pink / Красуня в рожевому"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Dirty Dancing / Брудні танці"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "When Harry Met Sally... / Коли Гаррі зустрів Саллі"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "The Ghost / Привид"
+                }
             },
-            "1": {
-                "index": "B",
-                "answer": "Родичі чоловіка"
-            },
-            "2": {
-                "index": "C",
-                "answer": "Музиканти"
-            },
-            "3": {
-                "index": "D",
-                "answer": "Молодята"
-            }
+            "rightAnswer": "D"
         },
-        "rightAnswer": "С"
-    },
     
-    "2": {
-        "question": "Яке значення має слово «выґмерати»? Варіянт використання: «Тобі аби щось выґмерати, як тільки щось - і ти вже тут!».",
-        "answers": {
-            "0": {
-                "index": "A",
-                "answer": "Виграти"
+        "1": {
+            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-2.jpg",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Ferris Bueller's Day Off / Вихідний день Ферріса Бюллера"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "The Breakfast Club / Клуб «Сніданок»"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Heathers / Смертельний потяг"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "Cry Baby / Плаксій"
+                }
             },
-            "1": {
-                "index": "B",
-                "answer": "Винишпорити"
-            },
-            "2": {
-                "index": "C",
-                "answer": "Дістати"
-            },
-            "3": {
-                "index": "D",
-                "answer": "Викрасти"
-            }
+            "rightAnswer": "B"
         },
-        "rightAnswer": "B"
-    },
+        
+        "2": {
+            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-3.jpg",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Fight Club / Бійцівський клуб"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Primal Fear / Первісний страх"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "American History X / Американська Історія Х"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "Rounders / Шулери"
+                }
+            },
+            "rightAnswer": "B"
+        },
+        
+        "3": {
+            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-4.jpg",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "The Mummy / Мумія"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Stargate / Зоряна брама"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Indiana Jones and the Temple of Doom / Індіана Джонс і Храм Долі"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "The Prince of Egypt / Принц Єгипту"
+                }
+            },
+            "rightAnswer": "A"
+        },
     
-    "3": {
-        "question": "Яке значення має слово «планета»? Варіянт використання: «Планета там останнім часом зовсім холодна».",
-        "answers": {
-            "0": {
-                "index": "A",
-                "answer": "Кімната"
+        "4": {
+            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-5.jpg",
+            "answers": {
+                "0": {
+                    "index": "A",
+                    "answer": "Annie / Енні"
+                },
+                "1": {
+                    "index": "B",
+                    "answer": "Eyewitness / Очевидець"
+                },
+                "2": {
+                    "index": "C",
+                    "answer": "Home Alone 2: Lost in New York / Сам удома 2: Загублений у Нью-Йорку"
+                },
+                "3": {
+                    "index": "D",
+                    "answer": "The Clue / Розгадка / Доказ"
+                }
             },
-            "1": {
-                "index": "B",
-                "answer": "Море"
-            },
-            "2": {
-                "index": "C",
-                "answer": "Ліжко"
-            },
-            "3": {
-                "index": "D",
-                "answer": "Погода"
-            }
-        },
-        "rightAnswer": "D"
-    },
-
-    "4": {
-        "question": "Яке значення має слово «бреск»? Варіянт використання: «І видно бреск над таємничим морем».",
-        "answers": {
-            "0": {
-                "index": "A",
-                "answer": "Ключ птахів"
-            },
-            "1": {
-                "index": "B",
-                "answer": "Світанок"
-            },
-            "2": {
-                "index": "C",
-                "answer": "Бризки"
-            },
-            "3": {
-                "index": "D",
-                "answer": "Повний місяць"
-            }
-        },
-        "rightAnswer": "B"
+            "rightAnswer": "D"
+        }
     }
 }

@@ -13,6 +13,7 @@ export default function Quiz() {
 	});
 
 	const [points, setPoints] = useState(0);
+	const [quizTheme, setQuizTheme] = useState('');
 
 	const { isStartingScreen, isGameOn, isGameOver } = gameState;
 
@@ -28,6 +29,7 @@ export default function Quiz() {
 					{(isStartingScreen)
 						? <QuizStart gameState={gameState}
 							setGameState={setGameState}
+							setQuizTheme={setQuizTheme}
 						/>
 						: null}
 
@@ -36,6 +38,7 @@ export default function Quiz() {
 							setGameState={setGameState}
 							points={points}
 							setPoints={setPoints}
+							quizTheme={quizTheme}
 						/>
 						: null}
 
