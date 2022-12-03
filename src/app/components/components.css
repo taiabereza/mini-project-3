@@ -40,9 +40,11 @@
 .navbar-link {
     padding: 5px 0;
     cursor: pointer;
+    border-bottom: 4px double transparent;
 }
 
-.navbar-link:hover {
+.navbar-link a:hover {
+    color: var(--palette-color-5);
     border-bottom: 4px double var(--palette-color-5);
 }
 
@@ -132,7 +134,17 @@
 }
 
 .quiz-question-text {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
     font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-question-text img {
+    width: 50%;
+    margin-top: 2.5%;
 }
 
 .quiz-answers {
@@ -147,17 +159,30 @@
     cursor: pointer;
     width: 35%;
     min-height: 50px;
+    padding: 2%;
     border-radius: 5px;
     font-size: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--palette-color-2);
+    text-align: center;
 }
 
 .quiz-answer:hover {
     filter: brightness(1.2);
 }
+
+@media (max-width: 720px) {
+    .quiz-answers {
+        flex-direction: column;
+    }
+
+    .quiz-answer {
+        width: 100%;
+    }
+}
+
 
 .quiz-answer-chosen {
     background-color: var(--palette-color-5);

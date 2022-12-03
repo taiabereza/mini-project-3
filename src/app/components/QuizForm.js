@@ -10,11 +10,12 @@ export default function QuizForm({ gameState, setGameState, points, setPoints, q
 	const [formState, setFormState] = useState({
 		maxCount: 5,
 		question: '',
+		src: '',
 		answers: ['', '', '', ''],
 		rightAnswer: '',
 	})
 
-	const { question, answers, rightAnswer, maxCount } = formState;
+	const { maxCount, question, src, answers, rightAnswer } = formState;
 
 	const [count, setCount] = useState(0);
 	const [isLoading, setIsLoading] = useState(false);
@@ -51,6 +52,7 @@ export default function QuizForm({ gameState, setGameState, points, setPoints, q
 				...formState,
 				maxCount: Object.entries(theme).length,
 				question: (count < maxCount) ? theme[count].question : question,
+				src: (count < maxCount) ? theme[count].src : src,
 				answers: (count < maxCount) ? answers.map((answer, i) => answer = theme[count].answers[i]) : answers,
 				rightAnswer: (count < maxCount) ? theme[count].rightAnswer : rightAnswer,
 			});
@@ -119,12 +121,8 @@ export default function QuizForm({ gameState, setGameState, points, setPoints, q
 				00:{(timerSeconds < 10) ? '0' + timerSeconds : timerSeconds}
 			</p>
 			<p className="quiz-question-text">
-				{(isLoading)
-					? 'Завантажується...'
-					: (quizTheme === 'lemky')
-						? question
-						: <img src={question} />
-				}
+				{question}
+				{(src.length > 0) ? <img src={src} /> : null} 
 			</p>
 			<div className="quiz-answers">
 				{answers.map((answer, i) => {
