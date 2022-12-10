@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import axios from 'axios';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -18,40 +17,18 @@ export default function Converter() {
 
     const { currencyFrom, inputFrom, currencyTo, inputTo, date } = state;
 
-    // useEffect(() => {
-    //     if (inputFrom === isNaN) {
-    //         return;
-    //     } else {
-    //         const requestURL = `https://api.exchangerate.host/convert?from=${currencyFrom}&to=${currencyTo}`;
-    //         const request = new XMLHttpRequest();
-    //         request.open('GET', requestURL);
-    //         request.responseType = 'json';
-    //         request.send();
-
-    //         request.onload = function () {
-    //             const requestedDate = (request.response.date);
-    //             const inputTo = (request.response.info.rate * inputFrom).toFixed(2);
-    //             setState({
-    //                 ...state,
-    //                 inputTo,
-    //                 date: new Date(requestedDate).toLocaleDateString()
-    //             })
-    //             console.log(date);
-    //         }
-    //     }
-    // }, [inputFrom, currencyFrom, currencyTo]);
-
     useEffect(() => {
-        axios.get(`https://v6.exchangerate-api.com/v6/6b12bf543b13fee6ebdd0568/latest/${currencyFrom}`)
-        .then((response) => {
-            console.log(response.data);
-            const rate = response.data.conversion_rates[currencyTo];
+        fetch(`https://v6.exchangerate-api.com/v6/6b12bf543b13fee6ebdd0568/latest/${currencyFrom}`)
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+                const rate = data.conversion_rates[currencyTo];
                 setState({
                     ...state,
                     inputTo: (rate * inputFrom).toFixed(2),
-                    date: new Date(response.data.time_last_update_utc).toLocaleString()
+                    date: new Date(data.time_last_update_utc).toLocaleString()
                 })
-        })
+            });
     }, [inputFrom, currencyFrom, currencyTo])
 
     const onChangeInput = (e) => {

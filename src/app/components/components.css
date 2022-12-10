@@ -133,7 +133,7 @@
     background: var(--palette-color-4);
 }
 
-.quiz-question-text {
+.quiz-question-content {
     display: flex;
     flex-direction: column;
     width: 92%;
@@ -142,9 +142,18 @@
     align-items: center;
 }
 
-.quiz-question-text img {
+.quiz-question-text {
+    width: 100%;
+    text-align: center;
+}
+
+.quiz-question-img {
     width: 50%;
     margin-top: 2.5%;
+}
+
+.quiz-question-img img {
+    width: 100%;
 }
 
 .quiz-answers {
