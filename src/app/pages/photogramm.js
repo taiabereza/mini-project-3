@@ -1,36 +1,36 @@
+import { useEffect } from "react";
 import { useState } from "react";
-import PhotoCard from "../components/PhotoCard";
+import Gallery from "../components/Gallery";
 
 export default function Photogramm() {
 
-    const [imgState, setImgState] = useState({
-        src: '',
-        tags: '',
-        category: ''
-    });
+	const [photos, setPhotos] = useState([]);
+	const [isLoading, setIsLoading] = useState(true);
+	const [category, setCategory] = useState('vacation');
 
-    const dbURL = 'https://my-json-server.typicode.com/taiabereza/quiz-questions/db';
-    fetch(dbURL)
-    .then(resonse => resonse.json())
-    .then(data => {
-        const currentCategory = 'christmas';
-        const photoDB = data.photogramm[currentCategory];
-        setImgState({
-            ...imgState,
-            src: photoDB[3].src,
-            tags: photoDB[3].tags,
-            category: currentCategory,
-        })
-    })
+	// JiNsM2V93y-KpymG-HgoDurjVvhadDJggGV4HSJUBG8
 
-    return (
-        <div className="page page-photogramm">
-            <header>
-                <h1>PHOTOGRAMM</h1>
-            </header>
+	const dbURL = `https://api.unsplash.com/search/photos?page=2&per_page=12&query=${category}&client_id=JiNsM2V93y-KpymG-HgoDurjVvhadDJggGV4HSJUBG8`;
 
-            
-            <PhotoCard imgSrc={imgState.src} />
-        </div>
-    )
+	useEffect(() => {
+		setIsLoading(true);
+		fetch(dbURL)
+			.then(resonse => resonse.json())
+			.then(data => {
+				setPhotos(data.results);
+				console.log(photos);
+			})
+		setIsLoading(false);
+	}, []);
+
+	return (
+		<div className="page page-photogramm">
+			<header>
+				<h1>PHOTOGRAMM</h1>
+				<Gallery photos={photos} isLoading={isLoading} />
+			</header>
+
+
+		</div>
+	)
 }
