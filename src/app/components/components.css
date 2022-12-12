@@ -27,6 +27,15 @@
     box-shadow: 0 0 12px var(--palette-color-5);
 }
 
+.button:disabled {
+    filter: brightness(.7);
+    cursor: auto;
+}
+
+.button:disabled:hover {
+    box-shadow: none;
+}
+
 /* STYLING NAVBAR */
 
 .navbar {
@@ -258,7 +267,7 @@
     position: absolute;
     margin: 18px;
     padding: 10px;
-    bottom: -60%;
+    bottom: -40%;
     left: 0;
     right: 0;
     z-index: 1;

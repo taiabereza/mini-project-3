@@ -16,6 +16,8 @@ export default function Gallery({ photos, isLoading }) {
                             <span>
                                 Author: <i>{photo.user.name}</i>
                             </span>
+                            <br />
+                            Resolution (W/H): {photo.width}px / {photo.height}px
                         </p>
                     </div>
                 </ListGroup.Item>
