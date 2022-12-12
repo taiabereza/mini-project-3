@@ -1,7 +1,7 @@
 export default function GalleryFilter({ filters, setFilters, setPage }) {
     return (
         <div className="gallery-filter">
-            <select name="category" id="category"
+            <select className="gallery-select" name="category" id="category"
                 value={filters.category}
                 onChange={(e) => {
                     setPage(1);
@@ -48,7 +48,7 @@ export default function GalleryFilter({ filters, setFilters, setPage }) {
                 </option>
             </select>
 
-            <select name="orderBy" id="orderBy"
+            <select className="gallery-select" name="orderBy" id="orderBy"
                 value={filters.orderBy}
                 onChange={(e) => {
                     setPage(1);
@@ -68,7 +68,7 @@ export default function GalleryFilter({ filters, setFilters, setPage }) {
 
             </select>
 
-            <select name="color" id="color"
+            <select className="gallery-select" name="color" id="color"
                 value={filters.color}
                 onChange={(e) => {
                     setPage(1);
@@ -128,7 +128,7 @@ export default function GalleryFilter({ filters, setFilters, setPage }) {
 
             </select>
 
-            <select name="orientation" id="orientation"
+            <select className="gallery-select" name="orientation" id="orientation"
                 value={filters.orientation}
                 onChange={(e) => {
                     setPage(1);

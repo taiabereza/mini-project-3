@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 export default function GalleryPagination({ page, setPage, totalPages }) {
+
+    const [edit, setEdit] = useState(false);
+
     return (
         <div className="gallery-btns">
             <button
@@ -7,14 +12,25 @@ export default function GalleryPagination({ page, setPage, totalPages }) {
                 onClick={() => {
                     window.scrollTo(0, 0);
                     setPage(page - 1);
-                    
-                    console.log(page);
-                    console.log(totalPages);
-                    console.log(page === totalPages);
                 }}
             >
                 PREV
             </button>
+
+            {(!edit)
+                ? (<div className="pagenumber" onClick={() =>{
+                    setEdit(true);
+                }}>
+                    {page}
+                </div>)
+                : (<input className="pagenumber" type="number" name="pagenumber" id="pagenumber" value={page} onChange={e => {
+                    setPage(e.target.value)
+                }}
+                onKeyDown={e => {
+                    if (e.key === 'Enter') {
+                        setEdit(false)
+                    }
+                }} />)}
 
             <button
                 className="button"
@@ -22,9 +38,6 @@ export default function GalleryPagination({ page, setPage, totalPages }) {
                 onClick={() => {
                     window.scrollTo(0, 0);
                     setPage(page + 1);
-                    console.log(page);
-                    console.log(totalPages);
-                    console.log(page ===  totalPages);
                 }}
             >
                 NEXT

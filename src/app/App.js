@@ -11,6 +11,7 @@ import Currency from './pages/Currency';
 import Quiz from './pages/Quiz';
 import Photogramm from './pages/Photogramm';
 import PageNotFound from './pages/PageNotFound';
+import Gallery from './components/Gallery';
 
 function App() {
   return (

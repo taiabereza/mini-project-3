@@ -112,13 +112,15 @@
 }
 
 
-.values-currency-select {
+.values-currency-select, .gallery-select {
     padding: 8px 12px;
     border-radius: 5px;
     background: var(--palette-color-2);
     color: var(--palette-color-4);
     cursor: pointer;
 }
+
+
 
 /* STYLING QUIZ */
 
@@ -300,13 +302,34 @@
 }
 
 .gallery-filter {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-filter * {
+    margin: .5% 
 }
 
 .gallery-btns {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery-btns>* {
     margin: 10px;
+}
+
+.pagenumber {
+    width: 4%;
+    padding: .45%;
+    background-color: var(--palette-color-2);
+    color: var(--palette-color-4);
+    text-align: center;
+}
+
+.pagenumber::-webkit-inner-spin-button,
+.pagenumber::-webkit-outer-spin-button {
+    appearance: none;
 }
