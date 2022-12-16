@@ -18,11 +18,11 @@ function App() {
     <div className="app">
       <Router>
         <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/currency' element={<Currency />} />
-          <Route path='/quiz' element={<Quiz />} />
-          <Route path='/photogramm' element={<Photogramm />} />
-          <Route path='/*' element={<PageNotFound />} />
+          <Route exact path='/mini-project-3/' element={<Home />} />
+          <Route path='/mini-project-3/currency' element={<Currency />} />
+          <Route path='/mini-project-3/quiz' element={<Quiz />} />
+          <Route path='/mini-project-3/photogramm' element={<Photogramm />} />
+          <Route path='/mini-project-3/*' element={<PageNotFound />} />
         </Routes>
       </Router>
     </div>
