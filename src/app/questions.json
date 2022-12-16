@@ -1,235 +1,355 @@
 {
-    "lemky": {
-        "0": {
-            "question": "Яке значення має слово «дзендзина»? Варіянт використання: «Поїду до рідної дзедзини, відпочину душею».",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Село"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Кузина"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Батьківщина"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "Річка"
-                }
-            },
-            "rightAnswer": "A"
-        },
-    
-        "1": {
-            "question": "Яке значення має слово «гудаки»? Варіянт використання: «На весіллі всі аплодували гудакам».",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Родичі дружини"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Родичі чоловіка"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Музиканти"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "Молодята"
-                }
-            },
-            "rightAnswer": "C"
-        },
-        
-        "2": {
-            "question": "Яке значення має слово «выґмерати»? Варіянт використання: «Тобі аби щось выґмерати, як тільки щось - і ти вже тут!».",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Виграти"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Винишпорити"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Дістати"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "Викрасти"
-                }
-            },
-            "rightAnswer": "B"
-        },
-        
-        "3": {
-            "question": "Яке значення має слово «планета»? Варіянт використання: «Планета там останнім часом зовсім холодна».",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Кімната"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Море"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Ліжко"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "Погода"
-                }
-            },
-            "rightAnswer": "D"
-        },
-    
-        "4": {
-            "question": "Яке значення має слово «бреск»? Варіянт використання: «І видно бреск над таємничим морем».",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Ключ птахів"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Світанок"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Бризки"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "Повний місяць"
-                }
-            },
-            "rightAnswer": "B"
-        }
-    },
-
-    "movies": {
-        "0": {
-            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-1.jpg",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Pretty In Pink / Красуня в рожевому"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Dirty Dancing / Брудні танці"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "When Harry Met Sally... / Коли Гаррі зустрів Саллі"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "The Ghost / Привид"
-                }
-            },
-            "rightAnswer": "D"
-        },
-    
-        "1": {
-            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-2.jpg",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Ferris Bueller's Day Off / Вихідний день Ферріса Бюллера"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "The Breakfast Club / Клуб «Сніданок»"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Heathers / Смертельний потяг"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "Cry Baby / Плаксій"
-                }
-            },
-            "rightAnswer": "B"
-        },
-        
-        "2": {
-            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-3.jpg",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Fight Club / Бійцівський клуб"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Primal Fear / Первісний страх"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "American History X / Американська Історія Х"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "Rounders / Шулери"
-                }
-            },
-            "rightAnswer": "B"
-        },
-        
-        "3": {
-            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-4.jpg",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "The Mummy / Мумія"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Stargate / Зоряна брама"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Indiana Jones and the Temple of Doom / Індіана Джонс і Храм Долі"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "The Prince of Egypt / Принц Єгипту"
-                }
-            },
-            "rightAnswer": "A"
-        },
-    
-        "4": {
-            "question": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-5.jpg",
-            "answers": {
-                "0": {
-                    "index": "A",
-                    "answer": "Annie / Енні"
-                },
-                "1": {
-                    "index": "B",
-                    "answer": "Eyewitness / Очевидець"
-                },
-                "2": {
-                    "index": "C",
-                    "answer": "Home Alone 2: Lost in New York / Сам удома 2: Загублений у Нью-Йорку"
-                },
-                "3": {
-                    "index": "D",
-                    "answer": "The Clue / Розгадка / Доказ"
-                }
-            },
-            "rightAnswer": "D"
-        }
-    }
+	"quiz": {
+		"lemky": {
+			"0": {
+				"question": "Яке значення має слово «дзендзина»? Варіянт використання: «Поїду до рідної дзедзини, відпочину душею».",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Село"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Кузина"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Батьківщина"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Річка"
+					}
+				},
+				"rightAnswer": "A"
+			},
+			"1": {
+				"question": "Яке значення має слово «гудаки»? Варіянт використання: «На весіллі всі аплодували гудакам».",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Родичі дружини"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Родичі чоловіка"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Музиканти"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Молодята"
+					}
+				},
+				"rightAnswer": "C"
+			},
+			"2": {
+				"question": "Яке значення має слово «выґмерати»? Варіянт використання: «Тобі аби щось выґмерати, як тільки щось - і ти вже тут!».",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Виграти"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Винишпорити"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Дістати"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Викрасти"
+					}
+				},
+				"rightAnswer": "B"
+			},
+			"3": {
+				"question": "Яке значення має слово «планета»? Варіянт використання: «Планета там останнім часом зовсім холодна».",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Кімната"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Море"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Ліжко"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Погода"
+					}
+				},
+				"rightAnswer": "D"
+			},
+			"4": {
+				"question": "Яке значення має слово «бреск»? Варіянт використання: «І видно бреск над таємничим морем».",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Ключ птахів"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Світанок"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Бризки"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Повний місяць"
+					}
+				},
+				"rightAnswer": "B"
+			}
+		},
+		"movies": {
+			"0": {
+				"question": "З якого фільму цей кадр?",
+				"src": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-1.jpg",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Pretty In Pink / Красуня в рожевому"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Dirty Dancing / Брудні танці"
+					},
+					"2": {
+						"index": "C",
+						"answer": "When Harry Met Sally... / Коли Гаррі зустрів Саллі"
+					},
+					"3": {
+						"index": "D",
+						"answer": "The Ghost / Привид"
+					}
+				},
+				"rightAnswer": "D"
+			},
+			"1": {
+				"question": "З якого фільму цей кадр?",
+				"src": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-2.jpg",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Ferris Bueller's Day Off / Вихідний день Ферріса Бюллера"
+					},
+					"1": {
+						"index": "B",
+						"answer": "The Breakfast Club / Клуб «Сніданок»"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Heathers / Смертельний потяг"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Cry Baby / Плаксій"
+					}
+				},
+				"rightAnswer": "B"
+			},
+			"2": {
+				"question": "З якого фільму цей кадр?",
+				"src": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-3.jpg",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Fight Club / Бійцівський клуб"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Primal Fear / Первісний страх"
+					},
+					"2": {
+						"index": "C",
+						"answer": "American History X / Американська Історія Х"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Rounders / Шулери"
+					}
+				},
+				"rightAnswer": "B"
+			},
+			"3": {
+				"question": "З якого фільму цей кадр?",
+				"src": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-4.jpg",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "The Mummy / Мумія"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Stargate / Зоряна брама"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Indiana Jones and the Temple of Doom / Індіана Джонс і Храм Долі"
+					},
+					"3": {
+						"index": "D",
+						"answer": "The Prince of Egypt / Принц Єгипту"
+					}
+				},
+				"rightAnswer": "A"
+			},
+			"4": {
+				"question": "З якого фільму цей кадр?",
+				"src": "https://raw.githubusercontent.com/taiabereza/quiz-questions/master/80-90%20movies/movie-5.jpg",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Annie / Енні"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Eyewitness / Очевидець"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Home Alone 2: Lost in New York / Сам удома 2: Загублений у Нью-Йорку"
+					},
+					"3": {
+						"index": "D",
+						"answer": "The Clue / Розгадка / Доказ"
+					}
+				},
+				"rightAnswer": "D"
+			}
+		},
+		"moviesByDescr": {
+			"0": {
+				"question": "Чолов'яга їсть шоколадки на автобусній зупинці й роздумує над минулим",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Good Will Hunting / Розумник Вілл Гантінґ"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Forrest Gump / Форрест Ґамп"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Rain Man / Людина дощу"
+					},
+					"3": {
+						"index": "D",
+						"answer": "The Curious Case of Benjamin Button / Загадкова історія Бенджаміна Баттона"
+					}
+				},
+				"rightAnswer": "B"
+			},
+			"1": {
+				"question": "Хлопчика забули вдома під час Різдвяних канікул. Він готує собі макарони з сиром.",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Problem Child / Вихідний день Ферріса Бюллера"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Home Alone / Сам удома"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Richie Rich / Багатенький Річ / Річ-багач"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Deck the Halls / Ласкаво просимо, або сусідам вхід заборонено"
+					}
+				},
+				"rightAnswer": "B"
+			},
+			"2": {
+				"question": "Компанія людей, яких немає в списку запрошених, завалюється на Різдвяну вечірку в офісній будівлі в Лос-Анджелесі. Чоловіку одної з працівниць це не подобається.",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Skyscraper / Хмарочос"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Taken / Заручниця / Викрадена"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Die Hard / Міцний горішок"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Air Force One / Літак президента"
+					}
+				},
+				"rightAnswer": "C"
+			},
+			"3": {
+				"question": "Школяр зустрічає місцевого божевільного професора й допомагає з ремонтом автівки.",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Rebel Without a Cause / Бунтівник без причини"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Back To The Future / Назад в майбутнє "
+					},
+					"2": {
+						"index": "C",
+						"answer": "Some Kind of Wonderful / Свого роду чудеса"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Baby Driver / Малюк на драйві / На драйві"
+					}
+				},
+				"rightAnswer": "B"
+			},
+			"4": {
+				"question": "Поліцейський вирішує перевірити як довго можна вести автобус, не зупиняючись і не збавляючи швидкості",
+				"src": "",
+				"answers": {
+					"0": {
+						"index": "A",
+						"answer": "Unstoppable / Некерований"
+					},
+					"1": {
+						"index": "B",
+						"answer": "Executive Decision / Рішення про ліквідацію / Наказано знищити"
+					},
+					"2": {
+						"index": "C",
+						"answer": "Mission: Impossible / Місія нездійсненна / Місія неможлива"
+					},
+					"3": {
+						"index": "D",
+						"answer": "Speed / Швидкість"
+					}
+				},
+				"rightAnswer": "D"
+			}
+		}
+	}
 }

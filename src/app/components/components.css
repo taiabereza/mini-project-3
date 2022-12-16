@@ -132,7 +132,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
+}
+
+.quiz-header {
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--palette-color-4);
+}
+
+.quiz-choice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-choice>* {
+    margin-top: 3%;
+    font-size: 1.3rem;
+}
+
+.quiz-descr {
+    padding: 1%;
+    font-weight: 600;
+    background-color: var(--palette-color-2);
+    color: var(--palette-color-5);
 }
 
 .quiz-question {
@@ -217,6 +241,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quiz-end h2 {
+    font-size: 1.5rem;
+}
+.quiz-end p {
+    font-size: 1.3rem;
+}
+.quiz-end p span {
+    font-size: 2rem;
+    color: var(--palette-color-4);
 }
 
 /* PHOTOGRAMM */
