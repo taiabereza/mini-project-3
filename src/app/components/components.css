@@ -333,3 +333,11 @@
 .pagenumber::-webkit-outer-spin-button {
     appearance: none;
 }
+
+.no-photos-avail {
+    width: 50%;
+    margin: 10% auto;
+    font-size: 2.3rem;
+    text-align: center;
+    border-bottom: 2px solid var(--palette-color-4);
+}

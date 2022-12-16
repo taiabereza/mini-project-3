@@ -47,13 +47,15 @@ export default function Photogramm() {
 
 			<GalleryFilter setPage={setPage} filters={filters} setFilters={setFilters} />
 
+			{(totalPages === 0) ?
+				<h2 className="no-photos-avail">NO PHOTOS AVAILABLE</h2> :
+				<>
+					<GalleryPagination page={page} setPage={setPage} totalPages={totalPages} />
 
+					<Gallery photos={photos} isLoading={isLoading} />
 
-			<GalleryPagination page={page} setPage={setPage} totalPages={totalPages} />
-
-			<Gallery photos={photos} isLoading={isLoading} />
-
-			<GalleryPagination page={page} setPage={setPage} totalPages={totalPages} />
+					<GalleryPagination page={page} setPage={setPage} totalPages={totalPages} />
+				</>}
 
 		</div>
 	)
