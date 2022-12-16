@@ -8,7 +8,7 @@ import QuizAnswer from "./QuizAnswer";
 
 export default function QuizForm({ gameState, setGameState, points, setPoints, quizTheme }) {
 
-	const MAX_TIME = 10;
+	const MAX_TIME = 30;
 
 	const [formState, setFormState] = useState({
 		maxCount: 5,

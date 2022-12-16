@@ -22,7 +22,7 @@ export default function GalleryPagination({ page, setPage, totalPages }) {
                 id="pagenumber"
                 value={page !== 0 ? page : ''}
                 onChange={e => {
-                    setPage(Number(e.target.value))
+                    e.target.value > totalPages ? setPage(totalPages) : setPage(Number(e.target.value))
                 }}
                 onKeyDown={e => {
                     if (e.key === 'Enter') {
