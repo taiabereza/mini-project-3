@@ -21,11 +21,10 @@ export default function Converter() {
         fetch(`https://v6.exchangerate-api.com/v6/6b12bf543b13fee6ebdd0568/latest/${currencyFrom}`)
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
                 const rate = data.conversion_rates[currencyTo];
                 setState({
                     ...state,
-                    inputTo: (rate * inputFrom).toFixed(2),
+                    inputTo: Math.abs((rate * inputFrom).toFixed(2)),
                     date: new Date(data.time_last_update_utc).toLocaleString()
                 })
             });

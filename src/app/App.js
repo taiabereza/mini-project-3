@@ -6,12 +6,11 @@ import './pages/pages.css';
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Currency from './pages/Currency';
-import Quiz from './pages/Quiz';
-import Photogramm from './pages/Photogramm';
-import PageNotFound from './pages/PageNotFound';
-import Gallery from './components/Gallery';
+import Home from './pages/home';
+import Currency from './pages/currency';
+import Quiz from './pages/quiz';
+import Photogramm from './pages/photogramm';
+import PageNotFound from './pages/pageNotFound';
 
 function App() {
   return (
