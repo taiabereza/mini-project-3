@@ -29,13 +29,13 @@ export default function QuizStart({ gameState, setGameState, setQuizTheme }) {
                 <select name="quiz-theme"
                     id="quiz-theme"
                     ref={theme}
-                    className="values-currency-select"
+                    className="values-select select-theme"
                     defaultValue="lemky"
                     onChange={(e) => setValue(e.target.value)}
                 >
-                    <option className="values-currency-option" value="lemky">Лемківський діалект</option>
-                    <option className="values-currency-option" value="movies">Фільми 80-90х</option>
-                    <option className="values-currency-option" value="moviesByDescr">Нудні описи до популярних фільмів</option>
+                    <option className="values-option" value="lemky">Лемківський діалект</option>
+                    <option className="values-option" value="movies">Фільми 80-90х</option>
+                    <option className="values-option" value="moviesByDescr">Нудні описи до популярних фільмів</option>
                 </select>
 
                 <div className="quiz-descr">

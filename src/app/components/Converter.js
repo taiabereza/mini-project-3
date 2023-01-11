@@ -79,13 +79,13 @@ export default function Converter() {
 
                 <select name="currencyFrom"
                     id="currencyFrom"
-                    className="values-currency-select"
+                    className="values-select"
                     value={currencyFrom}
                     onChange={handleSelect}
                 >
-                    <option className="values-currency-option" value="UAH">UAH</option>
-                    <option className="values-currency-option" value="USD">USD</option>
-                    <option className="values-currency-option" value="EUR">EUR</option>
+                    <option className="values-option" value="UAH">UAH</option>
+                    <option className="values-option" value="USD">USD</option>
+                    <option className="values-option" value="EUR">EUR</option>
                 </select>
             </div>
 
@@ -113,13 +113,13 @@ export default function Converter() {
 
                 <select name="currencyTo"
                     id="currencyTo"
-                    className="values-currency-select"
+                    className="values-select"
                     value={currencyTo}
                     onChange={handleSelect}
                 >
-                    <option className="values-currency-option" value="UAH">UAH</option>
-                    <option className="values-currency-option" value="USD">USD</option>
-                    <option className="values-currency-option" value="EUR">EUR</option>
+                    <option className="values-option" value="UAH">UAH</option>
+                    <option className="values-option" value="USD">USD</option>
+                    <option className="values-option" value="EUR">EUR</option>
                 </select>
             </div>
             <div className="converter-message">
