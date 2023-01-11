@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { DebounceInput } from 'react-debounce-input';
 
 export default function Converter() {
 
@@ -68,7 +69,7 @@ export default function Converter() {
                 <div>
                     {currencySignsAndValues[currencyFrom][0]}
                 </div>
-                <input className="values-input values-input-from"
+                <DebounceInput debounceTimeout={300} className="values-input values-input-from"
                     name="value-from"
                     id="value-from"
                     type="number"
